@@ -10,3 +10,10 @@ var myShowSeatStatus = showSeatStatus;===>指派函式參考
 myShowSeatStatus(23) ==>呼叫函式
 
 函式參考: 指向儲存原始碼的記憶體位置的指標值
+
+
+
+　callback function 回呼函式
+　
+　可以在javascript碼中指定函式參考，作為事件處理器，取代使用HTML屬性連接回呼函式與事件
+　window.onload = initSeats;
