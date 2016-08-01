@@ -1,3 +1,7 @@
 document物件的body.clientWidth與body.clientHeight特性裡，儲存了用戶端視窗的寬度與高度
 用戶端視窗: 只是瀏覽器視窗裡呈現網頁的部分，不包含標題列(title bar)與工具列(tool bar)
 document物件代表網頁本身
+
+
+指令稿(script)生命週期:
+Javascript於瀏覽器關閉或網頁重新載入時，摧毀所有變數
