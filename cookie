@@ -1,0 +1,3 @@
+只適合儲存相對少量的文字資料(4kb)
+cookieEnable特性是navigator物件的一部分，該物件為javascript提供瀏覽器本身的資訊
+navigator.cookieEnabled
