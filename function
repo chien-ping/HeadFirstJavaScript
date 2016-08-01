@@ -1,0 +1,12 @@
+P272
+var showSeatStatus = function(seatNum){.......};
+函式名稱為變數，函式本體看成值。函式其實只是"值"參考到函式本體的變數
+當函式本體式變數值，採用這種表達式時，又稱為函式實字(function literal)
+
+參考函式:函式名稱後沒有括號
+呼叫函式: 函式呼叫則必定後隨括號
+
+var myShowSeatStatus = showSeatStatus;===>指派函式參考
+myShowSeatStatus(23) ==>呼叫函式
+
+函式參考: 指向儲存原始碼的記憶體位置的指標值
