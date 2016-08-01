@@ -5,3 +5,7 @@ document物件代表網頁本身
 
 指令稿(script)生命週期:
 Javascript於瀏覽器關閉或網頁重新載入時，摧毀所有變數
+
+
+匯入
+<script type="text/javscript" src=""></script>
