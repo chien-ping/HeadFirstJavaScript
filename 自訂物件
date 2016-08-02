@@ -1,3 +1,14 @@
 
 雖然類別特性使用prototype物件建立，並藉此儲存在類別之中，他們還是必須透過實力取用，所以類別特性的卻用方式就像實例特性。
 差異在於特性的儲存地點在類別中(類別特性)，或在某個實例裡(實例特性)
+
+Blog.prototype.signnature = "......."
+
+每個物件都有個prototype物件，他允許在類別層級增加特性和方法，包括JavaScript標準物件
+ 擴充標準物件或任何Javascript物件的關鍵都是prototype物件
+ 
+ 類別擁有實例方法(class-owned instance method): 屬於類別但能取用實例特性
+ 
+ Date.prototype.shortFormat=function(){.....}
+ 類別方法(class method) 類別所有，無法取用實例特性，能取用類別特性
+Blog.showSignature = function(){.........}
