@@ -1,0 +1,9 @@
+<input type="text" id="zipcode" name="zipcode" size="15" />
+id屬性可獨一無二的識別網頁組件
+name屬性可獨一無二識別表單中的欄位
+
+每個表單欄位上都有一個form物件，可被傳給任何驗證表單資料的函式，form物件是一個"陣列"，儲存表單中所有欄位，
+他的陣列元素並非利用數值索引儲存，而是使用name屬性設定的識別字
+ex: theForm["zipcode"].value
+利用name屬性的途徑與使用getElementById()函是無高下之差，只差在原始碼較易讀
+
