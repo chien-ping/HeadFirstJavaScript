@@ -1,1 +1,49 @@
+Document Object Model
+
+DOM把網頁視為節點構成的階層樹，DOM樹的每個節點，均根據型態(type)分類。主要的節點型態對應至網頁的結構，主要以組件節點(element node)和
+文字節點(text node)構成
+
+DOM的節點，根據節點型態分類:
+
+DOCUMENT
+位在DOM樹最頂端的節點，代表文件本身，且出現在html組件的上一層
+
+ELEMENT
+對應到HTML標籤的HTML組件
+
+TEXT
+組件的文字內容，一定儲存在組件下的子節點裡
+
+ATTRIBUTE
+組件的屬性，可透過組件節點取用，但不會直接出現在DOM樹裡
+
+
+節點特性
+
+nodevalue
+儲存於節點的值，只限文字與屬性節點使用(不含組件)
+
+nodeType
+節點型態
+
+
+childNodes
+包含節點下所有子節點的陣列，以出現在HTML碼的順序而排列
+
+firstChild
+節點下的第一個子節點
+
+lastChild
+節點下的最後一個子節點
+
+
+
+
+
+
+
+
+reference
+http://blog.kkbruce.net/2012/02/javascript-w3c-dom.html#.V6BDXdIko88
+
 
