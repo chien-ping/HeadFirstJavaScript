@@ -13,7 +13,37 @@ myShowSeatStatus(23) ==>呼叫函式
 
 
 
-　callback function 回呼函式
 　
 　可以在javascript碼中指定函式參考，作為事件處理器，取代使用HTML屬性連接回呼函式與事件
 　window.onload = initSeats;
+　當有參數時可以使用函式實字，單純用於包裹 showSeatStatus()的呼叫，函數實有時稱為匿名函式
+　window.onload= function(evt){
+　     showSeatStatus(26);
+　}
+evt:事件物件被自動傳送給事件處理器，作為第一引數。
+
+
+
+　callback function 回呼函式
+　P281
+　
+　Callback 到底是什麼呢? 當一個函式執行完畢後所執行的那個函式就是所謂的 callback 函式
+　
+　在JavaScript中，回调函数具体的定义为：函数A作为参数(函数引用)传递到另一个函数B中，
+　并且这个函数B执行函数A。我们就说函数A叫做回调函数。如果没有名称(函数表达式)，就叫做匿名回调函数。
+　
+　
+　回呼函式的重要性:
+　讓我們對原始碼以外發生的事有所反應。取代由我的原始碼中呼叫函式(主動)，改為建立回呼函式，一直在等待"某事"發生，準備起身動作的函式。
+　當我們說某事發生了，通知回呼函式，則有瀏覽器處理(被動)。
+　
+　reference
+　http://dreamerslab.com/blog/tw/javascript-callbacks/
+　http://mao.li/javascript/javascript-callback-function/
+　http://wiki.jikexueyuan.com/project/brief-talk-js/callback-function.html
+　
+　
+　
+　p280
+　Onload事件處理器，是個初始化所有事件的絕佳地方。
+　
