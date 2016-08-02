@@ -53,3 +53,10 @@
   想在正規式裡比對具有特殊意義的字元時，必須在前方加上反斜線(\)
   
   
+  Javascript 裡的正規式由 RegExxp物件表示，包含test()方法，檢查字串裡是否存在指定的樣式
+  　ex: var regex = /^\d{5}$/; ==>這個物件實字自動建立RegExp物件
+  　regex.test(inputField.value) ==>如果字串符合樣式，test()的回傳值為true，否則回傳false
+  　
+  　
+  
+  
