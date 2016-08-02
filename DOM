@@ -2,6 +2,8 @@ Document Object Model
 
 DOM把網頁視為節點構成的階層樹，DOM樹的每個節點，均根據型態(type)分類。主要的節點型態對應至網頁的結構，主要以組件節點(element node)和
 文字節點(text node)構成
+DOM是種符合資訊網標準的HTML操縱方式，他能比innerHTML特性達到更多操控功能
+innerHTML雖非資訊網的標準，但這個特性能取用組件內儲存的所有內容
 
 DOM的節點，根據節點型態分類:
 
