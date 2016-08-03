@@ -40,12 +40,13 @@ lastChild
 
 
 
-
-
+DOM就是浏览器为JavaScript提供的一系列接口（通过window.documnet提供的），通过这些接口我们可以操作web页面。
+http://harttle.com/2015/10/01/javascript-dom-api.html
 
 
 
 reference
 http://blog.kkbruce.net/2012/02/javascript-w3c-dom.html#.V6BDXdIko88
+https://developer.mozilla.org/zh-TW/docs/Web/API/Document_Object_Model
 
 
