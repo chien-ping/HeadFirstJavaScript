@@ -5,6 +5,6 @@ onresize:瀏覽器視窗調整尺寸
 onclick: 滑鼠點擊
 
 
-
-http://harttle.com/2015/07/31/javascript-event.html
 http://www.quirksmode.org/js/events_order.html
+http://harttle.com/2015/07/31/javascript-event.html
+
