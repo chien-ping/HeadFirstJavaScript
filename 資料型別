@@ -1,12 +1,21 @@
-基本型別
+基本型別 基本（Primitive）資料型態
 
-text
+text(string)
 
 number
 
 boolean
 
+複合（Composite）資料型態
 
+物件
+內建物件   http://pydoing.blogspot.tw/2011/02/javascript-bulitin.html
+
+特殊值
+
+null
+
+undefined
 
 
 =============================
