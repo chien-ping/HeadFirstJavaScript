@@ -1,4 +1,4 @@
-區域變數才有閉包的情況
+函式內變數才有閉包的情況
 <script type="text/javascript">
 function doSome(){
    var x=10;
@@ -30,7 +30,27 @@ function doSome(){
 </script>
 http://openhome.cc/Gossip/JavaScript/Closure.html
 
-http://www.victsao.com/blog/81-javascript/302-javascript-function-closure-variable ==>這是因為全域變數和區域變數吧QQ
+<script type="text/javascript" >
+function doSome(){
+   var x=10;
+   y=20;   // var y=20; 亦可
+   f1=minus;
+   function minus(){
+       --y;
+       return y;
+   }
+   return minus();
+}  
+  doSome();
+  alert(f1());
+  alert(f1());
+  alert(y);
+  alert(doSome());
+  alert(doSome());
+  alert(y);
+  alert(x);
+</script>
+http://www.victsao.com/blog/81-javascript/302-javascript-function-closure-variable 
 http://www.victsao.com/blog/81-javascript/303-javascript-function-closure-privatevariable
 http://www.victsao.com/blog/81-javascript/305-http-www-victsao-com-blog-81-javascript-303-javascript-function-closure-memoryleak
 http://www.victsao.com/blog/81-javascript/306-javascript-function-closure-efficiency-prototype
