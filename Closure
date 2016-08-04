@@ -30,7 +30,7 @@ function doSome(){
 </script>
 http://openhome.cc/Gossip/JavaScript/Closure.html
 
-http://www.victsao.com/blog/81-javascript/302-javascript-function-closure-variable
+http://www.victsao.com/blog/81-javascript/302-javascript-function-closure-variable ==>這是因為全域變數和區域變數吧QQ
 http://www.victsao.com/blog/81-javascript/303-javascript-function-closure-privatevariable
 http://www.victsao.com/blog/81-javascript/305-http-www-victsao-com-blog-81-javascript-303-javascript-function-closure-memoryleak
 http://www.victsao.com/blog/81-javascript/306-javascript-function-closure-efficiency-prototype
