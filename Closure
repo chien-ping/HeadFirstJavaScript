@@ -1,1 +1,32 @@
+區域變數才有閉包的情況
+<script type="text/javascript">
+function doSome(){
+   var x=10;
+   function minus(){
+     x--;
+     return x;
+   }
+   return minus();
+}
+ var callfirst =  doSome();
+ var callsecond =  doSome();
+ alert(callfirst);
+ alert(callsecond);
+</script>
+<script type="text/javascript">
+var x=10;
+function doSome(){
+ 
+   function minus(){
+     x--;
+     return x;
+   }
+   return minus();
+}
+ var callfirst =  doSome();
+ var callsecond =  doSome();
+ alert(callfirst);
+ alert(callsecond);
+</script>
 http://openhome.cc/Gossip/JavaScript/Closure.html
+
