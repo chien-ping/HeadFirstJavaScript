@@ -22,9 +22,18 @@
    }
  }
  
- request.onreadystatechange = handler;
+ request.onreadystatechange = handleRequest;
  request.open("GET","url",true);  //always asychronous (true)
  request.send(null); //傳送請求時，資料附在send()方法的引述中一起傳送
+ 
+ function handleRequest(){
+   if(request.getReadyState()==4 && request.getStatus() == 200){
+   
+      
+   
+   }
+ 
+ }
  
  
  
