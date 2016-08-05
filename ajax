@@ -1,0 +1,31 @@
+ var request = null;
+ if(window.XMLHttpRequest){
+     try{
+       request = new XMLHttpRequest();
+       
+     }catch(e){
+        request = null;
+     }
+/  try ActiveX IE version   
+ }else if(window.ActiveXObject){
+   try{
+    request = new ActiveXObject("Msxm2.XMLHTTP");
+    //Try the older ActiveX object for older versions of IE
+   
+   }catch(e){
+      try{
+         request = new ActiveXObject("Microsoft.XMLHTTP");
+      }catch(e){
+       request = null;
+      
+      }
+   }
+ }
+ 
+ request.onreadystatechange = handler;
+ request.open("GET","url",true);  //always asychronous (true)
+ request.send(null); //傳送請求時，資料附在send()方法的引述中一起傳送
+ 
+ 
+ 
+ 
