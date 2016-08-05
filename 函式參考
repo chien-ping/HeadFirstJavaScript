@@ -7,6 +7,19 @@ function func(){
 console.log(func);
 console.log(func());
 </script>
+/** output
+* function func(){
+*   for(var i=0; i<5;i++){
+*     console.log(i);
+*   }
+*  }
+*  1
+*  2
+*  3
+*  4
+*  5
+*  undefined
+*/
 
 第一個值印出函式參考指向的"函式本體"
 第二個值印出函式執行結果　
