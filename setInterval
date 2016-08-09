@@ -1,1 +1,10 @@
 http://stackoverflow.com/questions/6183463/when-using-setinterval-if-i-switch-tabs-in-chrome-and-go-back-the-slider-goes
+
+
+setInterval
+setTimeout
+裡面不可直接指向this,因為會指向window 物件
+http://www.thinkjquery.com/
+
+window.setInterval
+window.setTimeout
