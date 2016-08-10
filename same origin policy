@@ -8,3 +8,6 @@ https://developer.mozilla.org/zh-TW/docs/HTTP/Access_control_CORS
 
 實作 Cross-Origin Resource Sharing (CORS) 解決 Ajax 發送跨網域存取 Request
 https://blog.toright.com/posts/3205/%E5%AF%A6%E4%BD%9C-cross-origin-resource-sharing-cros-%E8%A7%A3%E6%B1%BA-ajax-%E7%99%BC%E9%80%81%E8%B7%A8%E7%B6%B2%E5%9F%9F%E5%AD%98%E5%8F%96-request.html
+
+利用JSONP/ CORS實現Cross-Origin Request 
+http://ericachang.github.io/2013/07/01/jsonp_and_cors/
