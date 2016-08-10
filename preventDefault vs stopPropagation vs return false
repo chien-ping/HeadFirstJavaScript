@@ -1,0 +1,5 @@
+http://www.neoease.com/stoppropagation-and-preventdefault-and-return-false/
+
+
+Why does the form submit event fire when I have stopped propagation at the submit button level?
+http://stackoverflow.com/questions/29974088/why-does-the-form-submit-event-fire-when-i-have-stopped-propagation-at-the-submi
